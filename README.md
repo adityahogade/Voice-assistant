@@ -4,4 +4,6 @@
  it capable of recognizing voice command, processing them and responding appelropriately 
  in this project we can add features like 
  1. send gmail to voice command 
- 2. 
+ 2. send message on what's app through voice command
+ 3. open chrome, YouTube, gmail through voice command
+
