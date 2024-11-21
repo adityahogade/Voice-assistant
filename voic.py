@@ -30,57 +30,48 @@ def speechtx(x):
     engine.setProperty('rate',130)
     engine.say(x)
     engine.runAndWait()
-#speechtx("please speaK passward")
-#if __name__ == '__main__':
+speechtx("please speaK passward")
+if __name__ == '__main__':
 
-#    if sptext().__str__().lower() == 'hello':
- #       speechtx('hello. welcome to my project . what is your name ')
-  #      a=input(sptext())
-   #     speechtx("hello",a)
-
-
-    #   speechtx('my name is john')
-    #    while True:
-     #       data1= sptext().__str__().lower()
-
-      #      if "your name" in data1:
-       #          name= 'my name is john'
-        #         speechtx(name)
-         ##   elif "old are you" in data1:
-           #      age="i am four month old"
-            #     speechtx(age)
-            #elif 'time' in data1:
-             #    time = datetime.datetime.now().strftime("%I%M%p")  #now():-it returns live date and time
-              #   speechtx(time)
-    #     elif 'youtube' in data1:
-    #           webbrowser.open("https://www.youtube.com/c/GateSmashers")
-    #       elif 'gmail' in data1:
-    #           webbrowser.open("https://mail.google.com/mail/u/0/")
-    #       elif 'joke' in data1:
-    #           joke1=pyjokes.get_joke(language='en',category='neutral')
-    #            print(joke1)
-    #           speechtx(joke1)
-    #       elif 'fire detection' in data1:
-    #           print("hi")
-    #
-    #           m.fire()
-    #       elif 'play song' in data1:
-    #           add='C:\music'
-    #           listsong=os.listdir(add)
-    #           print(listsong)
-    #           os.startfile(os.path.join(add,listsong[2]))
+    if sptext().__str__().lower() == 'hello':
+        speechtx('hello. welcome to my project . what is your name ')
+        a=input(sptext())
+        speechtx("hello",a)
 
 
-    #       elif 'whatsapp message' in data1:
-    #           speechtx("for sending message please enter following details ")
-    #           pno = input("pno+91....=")
-    #           msg = input('enter message:-')
-    #           th = int(input('time in hour'))
-    #           tm = int(input('time in minute:='))
-    #           pw.sendwhatmsg(pno, msg, th, tm)
-    #       elif 'exit' in data1:
-    #           speechtx("thank you for visit voice assistant project")
-    #           break
-    #  else:
-       #  print('thanks')
+       speechtx('my name is john')
+        while True:
+            data1= sptext().__str__().lower()
+
+            if "your name" in data1:
+                 name= 'my name is john'
+                 speechtx(name)
+            elif "old are you" in data1:
+                 age="i am four month old"
+                 speechtx(age)
+            elif 'time' in data1:
+                 time = datetime.datetime.now().strftime("%I%M%p")  #now():-it returns live date and time
+                 speechtx(time)
+         elif 'youtube' in data1:
+               webbrowser.open("https://www.youtube.com/c/GateSmashers")
+           elif 'gmail' in data1:
+               webbrowser.open("https://mail.google.com/mail/u/0/")
+           elif 'joke' in data1:
+               joke1=pyjokes.get_joke(language='en',category='neutral')
+                print(joke1)
+               speechtx(joke1)
+           
+
+           elif 'whatsapp message' in data1:
+               speechtx("for sending message please enter following details ")
+               pno = input("pno+91....=")
+               msg = input('enter message:-')
+               th = int(input('time in hour'))
+               tm = int(input('time in minute:='))
+               pw.sendwhatmsg(pno, msg, th, tm)
+           elif 'exit' in data1:
+               speechtx("thank you for visit voice assistant project")
+               break
+      else:
+         print('thanks')
 
